@@ -1,0 +1,76 @@
+.Header {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  background-color: #ab2a19;
+  z-index: 2;
+}
+.Header > img {
+  width: 50px;
+  position: absolute;
+  top: 10px;
+  left: 75px;
+}
+.Header > h1 {
+  position: absolute;
+  top: 20px;
+  left: 150px;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.link-box {
+  width: 220px;
+  position: absolute;
+  bottom: 7px;
+  left: 75px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.link-box > .link-button {
+  border-radius: 5px;
+  color: white;
+  background-color: #ed6b5a;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+@media (min-width: 450px) {
+  .Header > img {
+    top: 25px;
+  }
+  .Header > h1 {
+    top: 35px;
+  }
+  .link-box {
+    width: auto;
+    height: 65px;
+    left: 300px;
+    bottom: auto;
+    top: 20px;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 650px) {
+  .link-box {
+    height: auto;
+    width: 270px;
+    top: 32px;
+    left: 350px;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .link-box > a {
+    font-size: 18px;
+    padding: 10px 12px;
+  }
+}
