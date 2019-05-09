@@ -1,7 +1,7 @@
 const fs = require("fs");
 const uuid = require("uuid");
 
-const DATA_FILE = "./inventory.json";
+const DATA_FILE = __dirname + "/inventory.json";
 
 module.exports = {
 	get(req, res, next) {
@@ -50,7 +50,6 @@ module.exports = {
 			const inventory = JSON.parse(data).filter(
 				product => product.id !== req.body.id
 			);
-
 			fs.writeFile(DATA_FILE, JSON.stringify(inventory, null, 4), () => {
 				res.setHeader("Cache-Control", "no-cache");
 				res.json(inventory);
