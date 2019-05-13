@@ -1,20 +1,20 @@
 [
-    {
-        "id": 1,
-        "image": "https://images.unsplash.com/photo-1508921108053-9f757ead871c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80",
-        "name": "bestfriend",
-        "price": 99
-    },
-    {
-        "id": "8b77f30a-1685-4a95-9735-1e619b590d86",
-        "image": "https://i.udemycdn.com/course/750x422/1650610_2673_5.jpg",
-        "name": "development",
-        "price": "100"
-    },
-    {
-        "id": "ae51ca00-a45b-45d6-8783-76d371f80e1a",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Del.svg/100px-Del.svg.png",
-        "name": "del",
-        "price": 0
-    }
+	{
+		"id": 1,
+		"image": "https://images.unsplash.com/photo-1508921108053-9f757ead871c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80",
+		"name": "code",
+		"price": 99
+	},
+	{
+		"id": "8b77f30a-1685-4a95-9735-1e619b590d86",
+		"image": "https://i.udemycdn.com/course/750x422/1650610_2673_5.jpg",
+		"name": "development",
+		"price": "100"
+	},
+	{
+		"id": "ae51ca00-a45b-45d6-8783-76d371f80e1a",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Del.svg/100px-Del.svg.png",
+		"name": "del",
+		"price": 0
+	}
 ]
